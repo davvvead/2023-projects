@@ -68,8 +68,15 @@ nav {
 }
 
 .clients-logo .col-lg-3 {
-    padding-left: 26%;
+    padding-left: 27%;
     margin-top: 20px;
+}
+
+@media (min-width: 768px){
+    .clients-logo .col-lg-3 {
+        padding-left: 100px;
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 1024px){
