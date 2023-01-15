@@ -67,6 +67,10 @@ nav {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+#clients img {
+    height: 120px;
+}
+
 .clients-logo .col-lg-3 {
     padding-left: 27%;
     margin-top: 20px;
