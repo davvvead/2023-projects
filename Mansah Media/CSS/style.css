@@ -189,7 +189,6 @@ nav {
     color: #41295a;
 }
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info {
-    /* max-width: 250px; */
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;

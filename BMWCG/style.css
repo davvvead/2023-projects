@@ -1,0 +1,271 @@
+/* bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/* body {
+    background: black;
+} */
+
+/* Loading screen section */
+#loader img {
+    height: auto;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s;
+}
+
+.not-loader {
+    display: none;
+}
+
+#loader img.change {
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s 0.3s;
+}
+
+/* Poster */
+#poster {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed !important;
+    z-index: 99999 !important;
+}
+
+.poster-img {
+    position: relative;
+    width: 40%;
+    margin-top: 60px;
+}
+
+@media (max-width: 1024px) {
+    .poster-img {
+        position: relative;
+        width: 90%;
+        margin-top: 60px;
+    }
+}
+
+.poster-img .close{
+    right: 0;
+    margin: 10px 10px 0px 0;
+    position: absolute;
+    font-size: 20px;
+    background: #fff;
+    padding: 0 4px;
+}
+
+/* Hero */
+#hero {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media (max-width:1440px) {
+    #hero {
+        background-position: center;
+    }
+}
+
+@media (max-width:800px) {
+    #hero {
+        height: 500px;
+    }
+    .mobile-nav {
+        width: 50%;
+        height: 100vh;
+        backdrop-filter: blur(20px);
+        box-shadow: rgba(0, 75, 94, 0.07) 0px 1px 1px, rgba(0, 75, 94, 0.07) 0px 2px 2px, rgba(0, 75, 94, 0.07) 0px 4px 4px, rgba(0, 75, 94, 0.07) 0px 8px 8px, rgba(0, 75, 94, 0.07) 0px 16px 16px;
+        z-index: 1000;
+        padding: 12px 12px 12px 32px;
+        position: fixed;
+        top: 0%;
+        right: 0%;
+    }
+
+    .closer {
+        justify-content: end !important;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width:500px) {
+    #hero {
+        height: 300px;
+    }
+}
+
+/* Nav */
+nav {
+    /* height: 120px; */
+    background: rgba(0, 0, 0, 0.500);
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.nav-mid {
+    justify-content: space-around;
+    padding: 8px 0;
+}
+
+.nav-mid a {
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-mid a:hover {
+    color: #5ab2ff !important;
+}
+
+.nav-left img {
+    height: 60px;
+}
+
+.nav-right {
+    justify-content: end;
+        padding-left: 60px;
+        padding-top: 15px;
+        column-gap: 20px;
+        color: #fff;
+}
+
+@media (max-width:766px) {
+    .nav-mid {
+        display: none !important;
+    }
+    .nav-right {
+        display: none !important;
+    }
+    .nav-left img {
+        height: 50px;
+    }
+}
+
+@media (max-width:500px) {
+    .nav-left img {
+        height: 30px;
+    }
+}
+
+.mobile-nav {
+    display: none !important;
+}
+@media (min-width:802px) {
+    .fa-bars {
+        display: none !important;
+    }
+    .closer {
+        justify-content: end !important;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width:426px) {
+    .mobile-nav {
+        width: 60%;
+    }
+}
+
+/* .hero-text {
+    margin-top: 220px;
+} */
+
+@media(min-width:1600px){
+    .hero-text {
+        margin-top: 520px;
+    }
+}
+
+.hero-btn {
+    margin-top: 50px;
+    width: 160px;
+}
+
+/* Mouse */
+.middle {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 0;
+}
+
+.mouse {
+    width: 25px;
+    height: 45px;
+    border: 4px solid #fff;
+    border-radius: 60px;
+}
+
+.mouse::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 30px;
+    background-color: #fff;   
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    animation: mouse 2s infinite;
+}
+
+@keyframes mouse {
+    from {
+        opacity: 1;
+        top: 5px;
+    }
+    to {
+        opacity: 0;
+        top: 30px;
+    }
+}
+
+@media(max-width:800px) {
+    .middle {
+        top: 400px;
+        transform: translate(-50%);
+    }
+}
+
+@media(max-width:500px) {
+    .middle {
+        top: 240px;
+        transform: translate(-50%);
+    }
+}
+
+/* Hero End */
+
+/* EVENTS */
+#events {
+    background-image: url(img/launch-control.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media(min-width:1600px){
+    #events {
+        background-size: cover;
+    }
+}
+
+/* Gallery */
+.gallery-heading {
+    color: #0c65b2;
+    font-family: 'Satisfy', cursive;
+}
+
+iframe {
+    border-radius: 6px;
+}
