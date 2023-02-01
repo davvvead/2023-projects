@@ -2,12 +2,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* body {
-    background: black;
-} */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* Loading screen section */
 #loader img {
@@ -117,7 +116,7 @@ nav {
 }
 
 .nav-mid a {
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
@@ -247,6 +246,14 @@ nav {
 
 /* Hero End */
 
+/* ABOUT */
+@media (min-width:1280px) {
+    .about-img {
+        margin-top: 72px;
+    }    
+}
+/* ABOUT END*/
+
 /* EVENTS */
 #events {
     background-image: url(img/launch-control.png);
@@ -263,7 +270,7 @@ nav {
 /* Gallery */
 .gallery-heading {
     color: #0c65b2;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 iframe {
