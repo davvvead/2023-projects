@@ -1,0 +1,21 @@
+* {
+    list-style: none;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none !important;
+}
+#hero {
+    height: 100vh;
+}
+#hero h1 {
+    font-size: 60px;
+}
+.hero-text {
+    margin-top: 100px;
+    line-height: 0.8;
+}
+.hero-buttons button{
+    font-size: 14px !important;
+    font-weight: 500;
+}
