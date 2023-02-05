@@ -19,3 +19,16 @@ nav li a{
     font-size: 14px !important;
     font-weight: 500;
 }
+
+/* Service Start */
+.service-row {
+    display: flex;
+    column-gap: 24px;
+}
+.service-grid {
+    width: 90%;
+}
+.service-img {
+    height: 200px;
+    background: #fff;
+}
