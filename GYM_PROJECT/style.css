@@ -25,6 +25,16 @@ nav li a{
     border: 0;
 }
 
+/* Showcase */
+#showcase {
+    color: #fff;
+}
+.showcase-pic {
+    background-image: url(showcase.jpg);
+    background-size: contain;
+}
+
+
 /* Service Start */
 .service-row {
     display: flex;
