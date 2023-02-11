@@ -46,17 +46,30 @@ nav li a{
 }
 .service-img {
     height: 200px;
-    background: #fff;
+    background: #5d5d5d;
 }
 
 /* Team Image */
-.team-img {
-    height: 300px;
-    background: #fff;
+.instructor-name {
+    width: 80%;
+    left: 10%;
+    top: 90%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#team {
+    background: #fafafa !important;
 }
 
 /* Prompt Image */
-.prompt-img {
-    height: 500px;
-    background: gainsboro;
+#prompt {
+    background-image: url(prompt.jpg);
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat; color: #fff;
+}
+.prompt-text {
+    /* height: 500px; */
+    /* background: gainsboro; */
+    padding-top: 15%;
 }
