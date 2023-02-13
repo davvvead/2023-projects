@@ -8,21 +8,51 @@ nav li a{
     text-decoration: none !important;
 }
 #hero {
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url(hero.svg);
     background-position: center center;
 }
+@media(min-width:1400px) {
+    #hero {
+        height: 100vh !important;
+    }
+}
+
 #hero h1 {
     font-size: 60px;
 }
+
 .hero-text {
     margin-top: 100px;
     line-height: 0.8;
 }
+
+@media(max-width:425px) {
+    #hero h1 {
+        font-size: 32px;
+    }
+    .hero-text {
+        margin-top: 50px;
+        line-height: 0.8;
+    }
+}
+
+
+.hero-buttons{
+    padding-bottom: 60px;
+}
 .hero-buttons button{
     font-size: 14px !important;
     font-weight: 500;
+    margin-bottom: 20px;
     border: 0;
+}
+
+@media(min-width:768px) {
+    .hero-buttons button{
+        /* margin-bottom: 200px; */
+        border: 0;
+    }
 }
 
 /* Showcase */
@@ -31,7 +61,14 @@ nav li a{
 }
 .showcase-pic {
     background-image: url(showcase.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media(min-width:1920px) {
+    .showcase-pic {
+        background-position: 0% 0%;
+    }
 }
 
 
@@ -44,10 +81,16 @@ nav li a{
 .service-grid {
     width: 90%;
 }
-.service-img {
-    height: 200px;
-    background: #5d5d5d;
+
+/* Classes */
+.class-name {
+    width: 100%;
+    background: #0000007b !important;
+    color: #fff;
+    bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
+
 
 /* Team Image */
 .instructor-name {
@@ -71,5 +114,14 @@ nav li a{
 .prompt-text {
     /* height: 500px; */
     /* background: gainsboro; */
-    padding-top: 15%;
+    padding-top: 12%;
+}
+
+/* Footer */
+.footer-section {
+    color: #fff;
+}
+
+.footer-section a{
+    color: #36c940;
 }
