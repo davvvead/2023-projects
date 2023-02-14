@@ -12,21 +12,33 @@
     <!-- HERO SECTION -->
     <section id="hero">
         <!-- Navigation bar -->
-        <nav class="d-flex">
-            <div class="container py-3 d-flex">
-                <div class="nav-left">
-                    <a class="navbar-brand" href="#">
-                        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
-                      </a>
-                </div>
-                <div class="nav-right ms-auto">
-                    <ul class="d-flex">
-                        <li class="mx-2"><a href="">Home</a></li>
-                        <li class="mx-2"><a href="">Home</a></li>
-                        <li class="mx-2"><a href="">Home</a></li>
-                        <li class="mx-2"><a href="">Home</a></li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Instructor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </nav>
         <!-- Navigation bar end -->
@@ -41,8 +53,8 @@
                 <h1 class="text-white">And Exercise Always.</h1>
             </div>
             <div class="hero-buttons d-lg-flex mt-4 text-center text-md-start mb-5">
-                <button class="bg-light py-3 px-5 text-white fs-6" style="background: #36c940 !important;">CONTACT US</button>
-                <button class="bg-light py-3 px-5 ms-lg-3 fs-6">LEARN MORE</button>
+                <button class="bg-light py-2 px-4 py-lg-3 px-lg-5 text-white fs-6" style="background: #36c940 !important;">CONTACT US</button>
+                <button class="bg-light py-2 px-4 py-lg-3 px-lg-5 ms-lg-3 fs-6">LEARN MORE</button>
             </div>
         </div>
         <!-- Main Hero Text End -->
@@ -121,42 +133,42 @@
         <div class="container">
             <h2 class="fw-bold mt-2 mb-4 text-center">OUR CLASSES</h2>
             <div class="service-grid mx-auto mb-lg-5">
-                <div class="service-row mb-lg-4">
-                    <div class="col-12 col-md-6 col-lg-4 service-img position-relative">
+                <div class="service-row row mb-lg-4">
+                    <div class="col-md-6 col-lg-4 service-img mb-3 mb-md-0">
                         <img src="classpic.jpg" class="img-fluid" alt="">
-                        <div class="class-name bg-white position-absolute p-3 fw-semibold">
+                        <div class="class-name p-3 fw-semibold">
                             Personal Training
                         </div>
                     </div>
-                   <div class="col-12 col-md-6 col-lg-4 service-img position-relative">
+                   <div class="col-md-6 col-lg-4 service-img mb-3 mb-md-0">
                         <img src="classpic.jpg" class="img-fluid" alt="">
-                        <div class="class-name bg-white position-absolute p-3 fw-semibold">
+                        <div class="class-name p-3 fw-semibold">
                             Weight Loss
                         </div>
                     </div>
-                   <div class="col-12 col-md-6 col-lg-4 service-img position-relative">
+                   <div class="col-md-6 col-lg-4 service-img mb-3 mb-md-0">
                         <img src="classpic.jpg" class="img-fluid" alt="">
-                        <div class="class-name bg-white position-absolute p-3 fw-semibold">
+                        <div class="class-name p-3 fw-semibold">
                             Muscle Development
                         </div>
                     </div>
                 </div>
-                <div class="service-row">
-                   <div class="col-12 col-md-6 col-lg-4 service-img position-relative">
+                <div class="service-row row">
+                   <div class="col-md-6 col-lg-4 service-img mb-3 mb-md-0">
                         <img src="classpic.jpg" class="img-fluid" alt="">
-                        <div class="class-name bg-white position-absolute p-3 fw-semibold">
+                        <div class="class-name p-3 fw-semibold">
                             Expert Advice
                         </div>
                     </div>
-                   <div class="col-12 col-md-6 col-lg-4 service-img position-relative">
+                   <div class="col-md-6 col-lg-4 service-img mb-3 mb-md-0">
                         <img src="classpic.jpg" class="img-fluid" alt="">
-                        <div class="class-name bg-white position-absolute p-3 fw-semibold">
+                        <div class="class-name p-3 fw-semibold">
                             Running
                         </div>
                     </div>
-                   <div class="col-12 col-md-6 col-lg-4 service-img position-relative">
+                   <div class="col-md-6 col-lg-4 service-img mb-3 mb-md-0">
                         <img src="classpic.jpg" class="img-fluid" alt="">
-                        <div class="class-name bg-white position-absolute p-3 fw-semibold">
+                        <div class="class-name p-3 fw-semibold">
                             Meal Plan
                         </div>
                     </div>
@@ -170,10 +182,10 @@
     <section id="team" class="py-lg-5 mt-lg-5">
         <div class="container">
             <div class="row mb-4">
-                <h2 class="text-center my-md-4 fw-bold">OUR INSTRUCTOR</h2>
+                <h2 class="text-center mb-4 fw-bold">OUR INSTRUCTOR</h2>
                 <div class="col-md-6 col-lg-3 mx-auto team-img position-relative">
                     <img src="Instructor.png" class="mx-auto w-100" alt="">
-                    <div class="instructor-name bg-white position-absolute p-3 text-center">
+                    <div class="instructor-name bg-white position-absolute p-3 text-center mb-4 mb-lg-0">
                         Richard XXX
                     </div>
                 </div>
