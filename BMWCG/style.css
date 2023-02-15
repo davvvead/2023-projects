@@ -19,9 +19,9 @@ body {
     transition: transform 0.3s;
 }
 
-.not-loader {
+/* .not-loader {
     display: none;
-}
+} */
 
 #loader img.change {
     transform: translate(-50%, -50%) scale(1);
@@ -62,10 +62,21 @@ body {
 
 /* Hero */
 #hero {
-    background-image: url(img/hero.jpg);
+    background-image: url(img/hero.svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+.hero-btn {
+    padding-top: 25%;
+    padding-left: 160px;
+}
+
+.hero-btn button:hover {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff !important;
 }
 
 @media (max-width:1440px) {
@@ -110,14 +121,8 @@ nav {
     box-sizing: border-box;
 }
 
-.nav-mid {
-    justify-content: space-around;
-    padding: 8px 0;
-}
-
 .nav-mid a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
     text-decoration: none;
 }
 
@@ -126,7 +131,7 @@ nav {
 }
 
 .nav-left img {
-    height: 60px;
+    height: 50px;
 }
 
 .nav-right {
