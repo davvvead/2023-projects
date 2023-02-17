@@ -63,14 +63,15 @@ body {
 /* Hero */
 #hero {
     background-image: url(img/hero.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .hero-btn {
     padding-top: 25%;
-    padding-left: 160px;
+    /* padding-left: 160px; */
+    /* -webkit-padding-start: 80px; */
 }
 
 .hero-btn button:hover {
