@@ -4,6 +4,15 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+font-family: 'Soul Signature';
+src: url('SoulSignature.woff2') format('woff2'),
+    url('SoulSignature.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -62,16 +71,27 @@ body {
 
 /* Hero */
 #hero {
-    background-image: url(img/hero.svg);
-    background-size: contain;
+    background-image: url(img/bmwcg.svg);
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
-.hero-btn {
-    padding-top: 25%;
-    /* padding-left: 160px; */
-    /* -webkit-padding-start: 80px; */
+/* @media(min-width: 1500px) {
+    #hero {
+        background-size: cover !important;
+    }
+} */
+
+.hero-text {
+    margin-top: 60px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 140px !important;
+    font-family: 'Soul Signature' , Arial, Helvetica, sans-serif;
+    line-height: 0.9 !important;
 }
 
 .hero-btn button:hover {
