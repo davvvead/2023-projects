@@ -17,6 +17,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#blog-bg {
+    background-image: url(img/blog-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* Loading screen section */
 #loader img {
     height: auto;
@@ -77,9 +83,9 @@ body {
     height: 100%;
 }
 
-/* @media(min-width: 1500px) {
+/* @media(min-width: 1600px) {
     #hero {
-        background-size: cover !important;
+        background-size: contain !important;
     }
 } */
 
@@ -204,15 +210,20 @@ nav {
     margin-top: 220px;
 } */
 
-@media(min-width:1600px){
-    .hero-text {
-        margin-top: 520px;
-    }
-}
-
 .hero-btn {
     margin-top: 50px;
     width: 160px;
+}
+
+@media(min-width:1600px){
+    .hero-text {
+        margin-top: 150px;
+    }
+    .hero-btn {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        width: 160px;
+    }
 }
 
 /* Mouse */
