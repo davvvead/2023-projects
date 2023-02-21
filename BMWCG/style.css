@@ -17,11 +17,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#blog-bg {
+/* #blog-bg {
     background-image: url(img/blog-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 /* Loading screen section */
 #loader img {
@@ -292,7 +292,7 @@ nav {
 /* ABOUT END*/
 
 /* EVENTS */
-#events {
+/* #events {
     background-image: url(img/launch-control.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -302,6 +302,25 @@ nav {
     #events {
         background-size: cover;
     }
+} */
+
+/* DISPLAY */
+#display {
+    width: 100%;
+    background-image: url(img/display.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+.display-btn button {
+    /* width: 100%; */
+}
+
+.display-btn button:hover {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff !important;
 }
 
 /* Gallery */
