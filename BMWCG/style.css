@@ -15,6 +15,7 @@ font-display: swap;
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background: black;
 }
 
 /* #blog-bg {
@@ -304,6 +305,12 @@ nav {
     }
 } */
 
+/* TEAM */
+#team .card-body {
+    background: #1f1f1f;
+    color: #fff;
+}
+
 /* DISPLAY */
 #display {
     width: 100%;
@@ -313,8 +320,8 @@ nav {
     height: 100%;
 }
 
-.display-btn button {
-    /* width: 100%; */
+.display-btn {
+    column-gap: 20px;
 }
 
 .display-btn button:hover {
@@ -325,7 +332,7 @@ nav {
 
 /* Gallery */
 .gallery-heading {
-    color: #0c65b2;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -335,4 +342,9 @@ nav {
 
 iframe {
     border-radius: 6px;
+}
+
+/* BLOG */
+blockquote {
+    color: #fff;
 }
