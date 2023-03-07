@@ -96,9 +96,15 @@ body {
 
 .hero-text h1 {
     color: white;
-    font-size: 150px !important;
+    font-size: 54px;
     font-family: 'Soul Signature' , Arial, Helvetica, sans-serif;
     line-height: 0.9 !important;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    margin-left: 64px;
+    width: 160px;
 }
 
 .hero-btn button:hover {
@@ -107,11 +113,44 @@ body {
     border: 1px solid #fff !important;
 }
 
+@media (min-width:370px) {
+    .hero-btn {
+        margin-left: 90px;
+    } 
+    .hero-text h1 {
+        font-size: 64px !important;
+    }
+}
+
+@media (min-width:768px) { 
+    .hero-text h1 {
+        font-size: 100px !important;
+    }
+    .hero-btn {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 160px;
+    }
+}
+
+@media (min-width:1023px) { 
+    .hero-text h1 {
+        font-size: 130px !important;
+    }
+}
+
+@media (min-width:1280px) { 
+    .hero-text h1 {
+        font-size: 150px !important;
+    }
+}
+
 @media (max-width:1440px) {
     #hero {
         background-position: center;
     }
 }
+
 
 @media (max-width:800px) {
     #hero {
@@ -210,11 +249,6 @@ nav {
 /* .hero-text {
     margin-top: 220px;
 } */
-
-.hero-btn {
-    margin-top: 50px;
-    width: 160px;
-}
 
 @media(min-width:1600px){
     .hero-text {
@@ -316,11 +350,35 @@ nav {
     width: 100%;
     background-image: url(img/display.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100%;
 }
 
+.display-btn-two {
+    margin-top: 12px;
+}
+
+@media (min-width:768px) {
+    .display-btn-two {
+        margin-left: 12px !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    #display {
+        background-size: contain;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1600px) {
+    #display {
+        background-size: cover;
+    }
+}
+
 .display-btn {
+    justify-content:center ;
     column-gap: 20px;
 }
 
