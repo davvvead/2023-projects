@@ -122,6 +122,15 @@ body {
     }
 }
 
+@media (min-width:420px) {
+    .hero-btn {
+        margin-left: 120px;
+    } 
+    .hero-text h1 {
+        font-size: 72px !important;
+    }
+}
+
 @media (min-width:768px) { 
     .hero-text h1 {
         font-size: 100px !important;
