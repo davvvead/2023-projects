@@ -23,34 +23,33 @@
 </head>
 <body>
     <!-- Nav -->
-    <nav class="bg-black mb-lg-5">
-        <div class="container nav-cont d-flex">
-            <div class="nav-left w-25">
-                <a href="index.html"><img src="img/newlogo.jpg" alt="" class="h-2"></a>
-            </div>
-            <div class="nav-mid ms-auto d-flex column-gap-4 pt-lg-2">
-                <a class="text-white" href="index.html">Home</a>
-                <a class="text-white" href="blog.html">Blog</a>
-                <!-- <a class="text-white" href="#gallery">Gallery</a> -->
-                <a class="text-white" href="#contact">Contact</a>
-            </div>
+    <nav>
+      <div class="container nav-cont d-flex">
+          <div class="nav-left w-25">
+              <a href="index.html"><img src="img/newlogo.jpg" alt="" class="h-2 d-none d-md-block"></a>
+              <i class="fa fa-bars d-md-none text-white mobile" style="font-size: x-large;"></i>
+          </div>
+          <div class="nav-mid ms-auto d-flex column-gap-4 pt-lg-2">
+            <a class="text-white" href="index.html">Home</a>
+            <a class="text-white" href="blog.html">Blog</a>
+            <a class="text-white" href="#contact">Contact</a>
         </div>
-        <!-- Mobile Navigation Start -->
-        <!-- <div class="mobile-nav">
-            <div class="closer flex">
-                <i class="fa-solid close-button fa-xmark text ml-auto"></i>
-            </div>
-            <div class="flex">
-                <ul class="nav-links">
-                    <li><a href="#about" class="text">About</a></li>
-                    <li><a href="#contact" class="text">Contact</a></li>
-                    <li><a href="#portfolio" class="text">Services</a></li>
-                    <li><a href="blog.html" class="text">Blog</a></li>
-                </ul>
-            </div>
-        </div> -->
-        <!-- Mobile Navigation End -->
-    </nav>
+      </div>
+      <!-- Mobile Navigation Start -->
+      <div class="mobile-nav">
+          <div class="closer flex text-end">
+              <i class="fa fa-times text-white pe-4" aria-hidden="true" style="font-size: 30px;"></i>
+          </div>
+          <div class="flex">
+              <ul class="nav-links">
+                <li><a class="text-white mobile-link" href="index.html">Home</a></li>
+                <li><a href="blog.html" class="text mobile-link">Blog</a></li>
+                <li><a href="#contact" class="text mobile-link">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+      <!-- Mobile Navigation End -->
+  </nav>
 
     <article id="blog-bg" class="pb-2">
         <div class="container">
@@ -225,6 +224,6 @@
 
     <!-- Custom JS -->
     <!-- <script src="script.js"></script> -->
-    <script src="darkmode.js"></script>
+    <script src="mobiletogle.js"></script>
 </body>
 </html>

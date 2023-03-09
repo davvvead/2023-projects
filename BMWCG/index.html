@@ -43,7 +43,8 @@
         <nav>
             <div class="container nav-cont d-flex">
                 <div class="nav-left w-25">
-                    <a href="index.html"><img src="img/newlogo.jpg" alt="" class="h-2"></a>
+                    <a href="index.html"><img src="img/newlogo.jpg" alt="" class="h-2 d-none d-md-block"></a>
+                    <i class="fa fa-bars d-md-none text-white mobile" style="font-size: x-large;"></i>
                 </div>
                 <div class="nav-mid ms-auto d-flex column-gap-4 pt-lg-2">
                     <a class="text-white" href="#about">About</a>
@@ -53,19 +54,20 @@
                 </div>
             </div>
             <!-- Mobile Navigation Start -->
-            <!-- <div class="mobile-nav">
-                <div class="closer flex">
-                    <i class="fa-solid close-button fa-xmark text ml-auto"></i>
+            <div class="mobile-nav">
+                <div class="closer flex text-end">
+                    <i class="fa fa-times text-white pe-4" aria-hidden="true" style="font-size: 30px;"></i>
                 </div>
                 <div class="flex">
                     <ul class="nav-links">
-                        <li><a href="#about" class="text">About</a></li>
-                        <li><a href="#contact" class="text">Contact</a></li>
-                        <li><a href="#portfolio" class="text">Services</a></li>
-                        <li><a href="blog.html" class="text">Blog</a></li>
+                        <li><a href="index.html" class="text mobile-link">Home</a></li>
+                        <li><a href="#about" class="text mobile-link">About</a></li>
+                        <li><a href="blog.html" class="text mobile-link">Blog</a></li>
+                        <li><a href="#gallery" class="text mobile-link">Gallery</a></li>
+                        <li><a href="#contact" class="text mobile-link">Contact</a></li>
                     </ul>
                 </div>
-            </div> -->
+            </div>
             <!-- Mobile Navigation End -->
         </nav>
 
@@ -80,9 +82,9 @@
         <!-- Hero Button Start -->
         <div class="container py-lg-5">
             <div class="hero-text col-md-8 col-lg-5">
-                <h1>Devoted to Incredible!</h1>
+                <h1 class="text-center text-md-start">Devoted to Incredible!</h1>
             </div>
-            <div class="hero-btn col-lg-5 pb-md-3 pb-lg-0">
+            <div class="hero-btn d-flex col-lg-5 pb-md-3 pb-lg-0 mx-auto mx-md-0">
                 <a href="#about"><button class="px-5 py-2 fw-semibold mb-md-5 mx-auto">Explore</button></a>
             </div>
         </div>
@@ -102,8 +104,8 @@
                     <div class="gallery-heading">
                         <h2 class="text-center text-lg-start mb-4 fw-bolder">ABOUT US</h2>
                     </div>
-                    <p class="px-md-5 px-lg-0 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, similique necessitatibus. Voluptatum voluptate similique inventore obcaecati illum fugiat minima necessitatibus odio quod ratione aliquam fuga sequi iure dolorem qui maiores doloribus officiis, cupiditate soluta libero velit earum. Maiores, inventore dolor?</p>
-                    <p class="px-md-5 px-lg-0 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, similique necessitatibus. Voluptatum voluptate similique inventore obcaecati illum fugiat minima necessitatibus odio quod ratione aliquam fuga sequi iure dolorem qui maiores doloribus officiis, cupiditate soluta libero velit earum. Maiores, inventore dolor?</p>
+                    <p class="px-md-5 px-lg-0 text-white about-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, similique necessitatibus. Voluptatum voluptate similique inventore obcaecati illum fugiat minima necessitatibus odio quod ratione aliquam fuga sequi iure dolorem qui maiores doloribus officiis, cupiditate soluta libero velit earum. Maiores, inventore dolor?</p>
+                    <p class="px-md-5 px-lg-0 text-white about-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, similique necessitatibus. Voluptatum voluptate similique inventore obcaecati illum fugiat minima necessitatibus odio quod ratione aliquam fuga sequi iure dolorem qui maiores doloribus officiis, cupiditate soluta libero velit earum. Maiores, inventore dolor?</p>
                 </div>
             </div>
         </div>
@@ -357,6 +359,6 @@
 
     <!-- Custom JS -->
     <!-- <script src="script.js"></script> -->
-    <script src="darkmode.js"></script>
+    <script src="mobiletogle.js"></script>
 </body>
 </html>
