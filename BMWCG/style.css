@@ -363,6 +363,31 @@ nav {
     height: 100%;
 }
 
+.display-btn {
+    justify-content:center ;
+    column-gap: 20px;
+}
+
+@media(max-width:426px){
+    .display-btn {
+        display: flex;
+        align-items: center;
+    }
+    .display-text h2 {
+        text-align: center;
+    }
+}
+
+.display-btn button {
+    width: 230px; 
+}
+
+.display-btn button:hover {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff !important;
+}
+
 .display-btn-two {
     margin-top: 12px;
 }
@@ -375,7 +400,7 @@ nav {
 
 @media (min-width: 1280px) {
     #display {
-        background-size: contain;
+        background-size: cover;
         height: 100%;
     }
 }
@@ -384,17 +409,6 @@ nav {
     #display {
         background-size: cover;
     }
-}
-
-.display-btn {
-    justify-content:center ;
-    column-gap: 20px;
-}
-
-.display-btn button:hover {
-    background: none;
-    color: #fff;
-    border: 1px solid #fff !important;
 }
 
 /* Gallery */
