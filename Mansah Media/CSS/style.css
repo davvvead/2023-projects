@@ -102,7 +102,7 @@ nav {
 
 @media (min-width: 1024px) {
     #services img.w-100 {
-        width: auto !important;
+        width: 90% !important;
     }
 }
 
