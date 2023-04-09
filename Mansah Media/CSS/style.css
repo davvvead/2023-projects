@@ -117,6 +117,22 @@ nav {
     color: #41295a;
 }
 
+/* PRICING */
+#pricing h1 {
+    color: #41295a;
+    font-size: 2rem !important;
+    text-align: center;
+}
+
+/* #pricing h5 {
+    color: #41295a;
+} */
+
+.pricing-card {
+    background: #2F0743;
+    color: #fff !important;
+}
+
 /* Footer */
 /* body{margin-top:20px;} */
 .deneb_footer .widget_wrapper {
