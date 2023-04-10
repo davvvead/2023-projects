@@ -118,19 +118,43 @@ nav {
 }
 
 /* PRICING */
+/* #pricing .container {
+    background: #f8e9ff;
+    border-radius: 16px;
+} */
+
 #pricing h1 {
     color: #41295a;
     font-size: 2rem !important;
     text-align: center;
 }
 
-/* #pricing h5 {
-    color: #41295a;
-} */
+.w-80 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:500px) {
+    .w-80 {
+        width: 100%;
+    }
+}
+
+.price-btn a {
+    background: #41295a !important;
+    color: #fff !important;
+}
 
 .pricing-card {
-    background: #2F0743;
-    color: #fff !important;
+    background: #f6e2ff;
+    border: 0;
+    color: #41295a !important;
+    box-shadow: rgba(254, 222, 255, 0.878) 0px 4px 12px;
+}
+
+.pricing-card .terms {
+    font-size: 14px;
 }
 
 /* Footer */
