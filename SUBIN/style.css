@@ -1,0 +1,91 @@
+/* Fonts Addition */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+nav.navbar {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #CC0000;
+  border: 1px solid #CC0000;
+  border-radius: 6px;
+  box-shadow: #93373770;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #060079;
+  border: 1px solid #060079;
+}
+
+.button-3:focus {
+  box-shadow: #06007930;
+  outline: none;
+}
+
+.button-3:active {
+    background-color: #060079;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.carousel-caption-1 {
+    width: 30%;
+    top: 30%;
+}
+
+.carousel-caption-1 h2 {
+    color: #060079;
+}
+
+/* hero */
+.hero-btn {
+    border: 1px solid #CC0000;
+    background: none;
+    color: #CC0000;
+    border-radius: 8px;
+    padding: 10px 30px;
+    transition: background 0.5s ease-in 100ms;
+}
+
+.hero-btn:hover {
+    background: #CC0000;
+    color: #fff;
+}
