@@ -5,12 +5,16 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-nav.navbar {
+/* nav.navbar {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
+} */
 
 .dropdown-toggle::after {
     display: none;
+}
+
+.navbar-nav {
+  column-gap: 30px;
 }
 
 .navbar-brand img {
@@ -19,6 +23,8 @@ nav.navbar {
 
 .nav-link {
     color: black;
+    /* font-size: 14px; */
+    font-weight: 600;
 }
 
 /* CSS */
@@ -88,4 +94,66 @@ nav.navbar {
 .hero-btn:hover {
     background: #CC0000;
     color: #fff;
+}
+
+@media(max-width: 769px) {
+  .carousel-caption-1 {
+    width: 36%;
+    top: 0%;
+}
+.carousel-caption-1 h2 {
+  font-size: 24px;
+}
+}
+
+/* Values */
+.value-card {
+  padding: 35px 20px;
+  border: #b5404047 3px solid;
+  transition: background 0.3s ease-in 60ms;
+}
+
+.value-card:hover {
+  background: #CC0000;
+  color: #fff;
+}
+
+.card-title {
+  text-align: left;
+  font-weight: bold;
+}
+
+.value-paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card-icon {
+  height: 60px;
+  align-self: start;
+}
+
+/* #brief */
+#brief {
+  background-image: url(img/brief.png);
+  height: 520px;
+}
+
+#brief .hero-btn {
+  border: 1px solid #060079;
+  background: none;
+  color: #060079;
+  border-radius: 8px;
+  padding: 10px 30px;
+  transition: background 0.5s ease-in 100ms;
+}
+
+#brief .hero-btn:hover {
+  background: #060079;
+  color: #fff;
+}
+
+/* #housing */
+.section-sub {
+  color: #060079;
 }
