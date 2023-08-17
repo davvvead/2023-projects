@@ -157,3 +157,27 @@ body {
 .section-sub {
   color: #060079;
 }
+
+.housing-card {
+  border: none;
+  border-top: 1px solid rgb(200, 200, 200);
+  border-radius: 0;
+}
+
+.housing-card:hover {
+  background: #060079;
+  color: #fff;
+}
+
+.card-holder {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-link {
+  color: #CC0000;
+}
+
+.housing-bg {
+  background-image: url(img/housing.jpg);
+  background-position: center center;
+}
