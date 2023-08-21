@@ -181,3 +181,20 @@ body {
   background-image: url(img/housing.jpg);
   background-position: center center;
 }
+
+/* Donate */
+#donate {
+  background-image: url(img/donate1.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* #donate h2, p {
+  color: #CC0000;
+} */
+
+/* Footer */
+footer {
+  margin-top: 140px !important;
+}
