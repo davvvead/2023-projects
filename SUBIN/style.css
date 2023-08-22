@@ -153,6 +153,26 @@ body {
   color: #fff;
 }
 
+@media(max-width: 500px) {
+  #brief {
+    background-image: none;
+    height: auto;
+    background: #060079;
+    color: #fff;
+  }
+
+  #brief .hero-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  
+  #brief .hero-btn:hover {
+    background: #fff;
+    color: #CC0000;
+  }
+}
+
 /* #housing */
 .section-sub {
   color: #060079;
