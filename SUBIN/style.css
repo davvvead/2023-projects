@@ -96,6 +96,17 @@ body {
     color: #fff;
 }
 
+#hero-title {
+  background-image: url(img/hero-title.png);
+  background-position: center;
+  padding: 65px;
+}
+
+#hero-title h1 {
+  font-weight: 600;
+  color: #fff;
+}
+
 @media(max-width: 769px) {
   .carousel-caption-1 {
     width: 36%;
