@@ -247,16 +247,46 @@ footer {
 
 /* MISSION & VISION */
 #vision {
-  background: #f2f2ff;
+  background: #f6f6ff;
+  margin-top: 300px;
+}
+
+#vision .row {
+  margin-top: -280px;
 }
 
 .vision-card {
   padding: 35px 20px;
-  border: #b5404047 3px solid;
+  border: none;
   transition: background 0.3s ease-in 60ms;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0;
 }
 
-.vision-card:hover {
+/* .vision-card:hover {
   background: #CC0000;
   color: #fff;
+} */
+
+/* TEAM */
+.team-card {
+  padding: 15px;
+  border: 1px solid #CC0000;
+  transition: background 0.3s ease-in 60ms;
+  box-shadow: rgba(242, 132, 132, 0.326) 0px 3px 8px;
+  border-radius: 12px;
 }
+
+.team-img {
+border-radius: 12px;
+margin-bottom: 40px;
+}
+
+.job-pos {
+  margin-bottom: 20px;
+}
+
+/* .vision-card:hover {
+  background: #CC0000;
+  color: #fff;
+} */
