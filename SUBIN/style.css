@@ -290,3 +290,12 @@ margin-bottom: 40px;
   background: #CC0000;
   color: #fff;
 } */
+
+#article {
+  width: 60%;
+}
+
+#article P {
+  text-align: justify;
+  text-justify: inter-word;
+}
