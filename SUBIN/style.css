@@ -292,7 +292,19 @@ margin-bottom: 40px;
 } */
 
 #article {
-  width: 60%;
+  /* width: 60%; */
+}
+
+@media(min-width:1280px){
+  #article {
+    width: 80%;
+  }
+}
+
+@media(min-width:1440px){
+  #article {
+    width: 60%;
+  }
 }
 
 #article P {
