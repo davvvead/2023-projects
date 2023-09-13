@@ -282,6 +282,10 @@ border-radius: 12px;
 margin-bottom: 40px;
 }
 
+#team_single {
+width: 60%;
+}
+
 .job-pos {
   margin-bottom: 20px;
 }
@@ -291,9 +295,9 @@ margin-bottom: 40px;
   color: #fff;
 } */
 
-#article {
-  /* width: 60%; */
-}
+/* #article {
+   width: 60%;
+} */
 
 @media(min-width:1280px){
   #article {
